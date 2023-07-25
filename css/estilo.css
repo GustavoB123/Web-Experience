@@ -630,7 +630,8 @@ li,a, button{
   /* PAGINA SOBRE ---------------------------------------------------------------------------------------------------------------- */
 
   .sobre{
-    background-color: #041024;
+    background: url(../img/fotosobre.png) no-repeat center;
+    background-attachment: fixed;
     min-height: 650px;
   }
 
@@ -680,6 +681,7 @@ li,a, button{
   }
   .sobre2 {
     background-color: #041024;
+    min-height: 850px;
   }
   .questoes{
     background: url(../img/sobreslide.png) no-repeat center;
