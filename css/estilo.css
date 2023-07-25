@@ -720,15 +720,15 @@ li,a, button{
 
 
   .questoes div p{
-    width: 25%;
+    width: 30%;
     align-self: center;
-    font-size: 25px;
+    font-size: 26px;
     font-family: 'Poppins';
     letter-spacing: 1px;
     line-height: 35px;
     text-align: center;
     color: #f2f2f2;
-    margin-top: 65px;
+    margin-top: 15px;
   }
 
 
