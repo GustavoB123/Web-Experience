@@ -34,3 +34,5 @@ window.onscroll = function(){
     }
 
   }
+
+  $('.slideSobre').slick();

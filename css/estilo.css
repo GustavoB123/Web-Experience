@@ -631,7 +631,7 @@ li,a, button{
 
   .sobre{
     background-color: #041024;
-    min-height: 900px;
+    min-height: 650px;
   }
 
   #mini-sobre{
@@ -692,7 +692,60 @@ li,a, button{
   .questoes div{
     width: 1133px;
     height: 534px;
-    background-color: #ffff;
+    background-color: #190B59;
     margin-left: 3%;
     margin-top: 13%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .questoes div div{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 45%;
+    height: 75%;
+  }
+
+
+
+
+  .questoes h1{
+    font-size: 40px;
+    margin-top: 65px;
+    color: #f2f2f2;
+    font-weight: 500;
+  }
+
+
+  .questoes div p{
+    width: 25%;
+    align-self: center;
+    font-size: 25px;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+    line-height: 35px;
+    text-align: center;
+    color: #f2f2f2;
+    margin-top: 65px;
+  }
+
+
+  .questoes div img{
+    width: 100%;
+    border-radius: 10px 20px; 
+  }
+
+  .line{
+    width: 100%;
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #041024;
+  }
+
+  .line span{
+    margin: 0;
   }
