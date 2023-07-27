@@ -1,0 +1,183 @@
+  .sobre {
+    background: url(../img/raahcientista.png) no-repeat;
+    min-height: 650px;
+    background-color: #041024;
+  }
+
+  #mini-sobre {
+    padding: 40px 0 100px;
+    display: flex;
+    margin-left: 300px;
+
+  }
+
+  .sobre div div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+  }
+
+  .sobre h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: #f2f2f2;
+    text-shadow: -1px 10px 4px #9C40F3;
+    margin-bottom: 45px;
+  }
+
+  .sobre div p {
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+    color: #f2f2f2;
+
+  }
+
+  .sobre img {
+    width: 40%;
+    height: 40%;
+  }
+
+  .linhasobre {
+    display: flex;
+    width: 30%;
+    height: 4px;
+    background-color: #d705dd;
+    margin-left: 35%;
+    opacity: 0.8;
+    margin-top: 3%;
+  }
+
+  .sobre2 {
+    background-color: #041024;
+    min-height: 850px;
+  }
+
+  .questoes {
+    background: url(../img/sobreslide.png) no-repeat center;
+    height: 870px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1235px;
+
+  }
+
+  .questoes div {
+    width: 1204px;
+    height: 620px;
+    background-color: #190B59;
+    margin-top: 137px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .questoes div div {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 45%;
+    height: 75%;
+  }
+
+
+
+
+  .questoes h1 {
+    font-size: 40px;
+    margin-top: 65px;
+    color: #f2f2f2;
+    font-weight: 500;
+  }
+
+
+  .questoes div p {
+    width: 30%;
+    align-self: center;
+    font-size: 26px;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+    line-height: 35px;
+    text-align: center;
+    color: #f2f2f2;
+    margin-top: 15px;
+  }
+
+
+  .questoes div img {
+    width: 90%;
+    border-radius: 10px 20px;
+  }
+
+  .line {
+    width: 100%;
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #041024;
+  }
+
+  .line span {
+    margin: 0;
+  }
+
+  .equipe {
+    background: url(../img/fndDevs.png) no-repeat center;
+    background-attachment: fixed;
+    max-height: 950px;
+  }
+
+  .equipe h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #f2f2f2;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .equipe img {
+    width: 280px;
+  }
+
+
+  .devs {
+    display: flex;
+    justify-content: center;
+  }
+
+  .devs div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+  }
+
+
+
+  .devs img {
+    background-color: #041024;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  .devs h2 {
+    font-size: 25px;
+    color: #f2f2f2;
+    opacity: 0;
+    position: relative;
+    top: -150px;
+  }
+
+  .devs div div:hover h2 {
+    opacity: 1;
+    font-weight: bold;
+  } 
+
+  .devs div div:hover img {
+    transition: ease-in-out .3s ;
+    opacity: .8;
+  }

@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
 
+    <link rel="stylesheet" href="css/sobre.css">
+
     <link rel="stylesheet" href="css/estilo.css ">
 
 
@@ -21,47 +23,7 @@
 
 
 <body>
-    <Header>
-
-        <nav class="topo" id="topo-fixo">
-
-            <div>
-
-                <h1>web experience</h1>
-
-            </div>
-
-            <button class="menu-abrir"></button>
-
-            <nav class="menu">
-
-                <button class="menu-fechar"></button>
-
-                <h4 class="orcamento"><a>orçamento</a></h4>
-
-                <ul>
-
-                    <li><a href="index.html" class="ativo">Home</a></li>
-                    <span class="linha"></span>
-
-                    <li><a href="#">Sobre</a></li>
-                    <span class="linha"></span>
-
-                    <li><a href="#">Contato</a></li>
-                    <span class="linha"></span>
-
-                    <li><a href="#">Portfólio</a></li>
-                    <span class="linha"></span>
-
-                </ul>
-
-
-
-            </nav>
-
-        </nav>
-
-    </Header>
+    <?php require_once('conteudo/topo.php') ?>
     <main>
         <section class="sobre">
             <div class="site" id="mini-sobre">
@@ -79,7 +41,6 @@
                     </p>
                 </div>
 
-                <img src="img/multidao.jfif" alt="">
 
             </div>
 
@@ -93,13 +54,13 @@
             <div class="site questoes">
                 <div class="slideSobre">
                     <div>
-                        <img src="img/logosobre.png" alt="">
+                        <img src="img/foguete.png" alt="">
                         <h1> Como começamos?</h1>
                     </div>
 
                     <p>
                         Fundada em 20/03/2023, a Web Experience nasceu
-                        com a visão de tornar a experiência digital de nossos clientes extraordinária, trazendo uma boa visão para o usuário, tanto 
+                        com a visão de tornar a experiência digital de nossos clientes extraordinária, trazendo uma boa visão para o usuário, tanto
                         em interface quanto em experiencia com o seu próprio produto.
                     </p>
                 </div>
@@ -108,6 +69,69 @@
 
             </div>
         </section>
+
+        <section class="equipe">
+            <div>
+                <h1>Nossa Equipe</h1>
+
+                <div class="devs">
+                    <div>
+
+                        <div>
+
+                                <img src="img/avatarhomem.svg" alt="Avatar de um homem no estilo flat art" class="mostrar-texto" id="gustavob">
+                        
+                            <h2>Gustavo Brito</h2>
+                        </div>
+
+
+
+                    </div>
+
+                    <div>
+
+                        <div>
+                            <img src="img/avatarhomem.svg" alt="Avatar de um homem no estilo flat art"class="mostrar-texto" id="gustavoh">
+                            <h2>Gustavo Hemogenes</h2>
+                        </div>
+
+
+
+                    </div>
+
+                    <div>
+
+                        <div>
+                            <img src="img/avatarhomem.svg" alt="Avatar de um homem no estilo flat art" class="mostrar-texto" id="edgar">
+                            <h2>Edgar</h2>
+                        </div>
+
+
+
+                    </div>
+
+                    <div>
+
+                        <div>
+                            <img src="img/avatarmulher.svg" alt="Avatar de uma mulher no estilo flat art" class="mostrar-texto" id="nicole">
+                            <h2>Nicole</h2>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+                <div></div>
+
+            </div>
+
+        </section>
+
+        <?php require_once('conteudo/rodape.php') ?>
+
+
+
     </main>
 
 
