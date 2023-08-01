@@ -15,6 +15,12 @@
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" href="img/favicon.png" type="image/png">
+
+    <link rel="stylesheet" href="css/modal.css" />
+
     <link rel="stylesheet" href="css/estilo.css ">
 
 
@@ -30,7 +36,7 @@
 
    <?php require_once('conteudo/servico.php') ?>
 
-   <?php require_once('conteudo/portfolio.php') ?>
+   <?php require_once('conteudo/mvv.php') ?>
    
    <?php require_once('conteudo/depoimento.php') ?>
    
@@ -51,10 +57,23 @@
    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
+   <script src="https://kit.fontawesome.com/f0e19193d6.js" crossorigin="anonymous"></script>
 
 
   <script src="js/animacoes.js"></script>
 
+
+  <script>
+  var typingeffect = new Typed(".digitando", {
+  strings: ["Conectados"],
+  loop: true,
+  typeSpeed: 150,
+  backSpeed: 100,
+  backDelay: 1500,
+});
+
+</script>
 
 </body>
 </html>

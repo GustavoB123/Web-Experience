@@ -6,6 +6,10 @@
             <div class="rodape-logo">
 
                 <img src="img/logo.png" alt="">
+<<<<<<< HEAD
+                
+=======
+>>>>>>> 916e5a373f7ecaae3e8366630f074647899c6e7b
                 <p>Não perca mais tempo - transforme sua visão em realidade hoje mesmo. Entre em contato conosco e embarque nessa viagem rumo ao sucesso digital. Sua história está prestes a ganhar vida na web!</p>
 
             </div>
@@ -20,16 +24,26 @@
             <ul class="redes-sociais">
                 <a href="https://www.facebook.com/" class="icone facebook">
                     <span class="tooltip">Facebook</span>
+<<<<<<< HEAD
+            </a>
+                <a href="https://www.whatsapp.com/" class="icone whatsapp">
+                    <span class="tooltip">whatsapp</span>
+=======
                     <span><i class="fab fa-facebook-f"></i></span>
             </a>
                 <a href="https://www.whatsapp.com/" class="icone whatsapp">
                     <span class="tooltip">whatsapp</span>
                     <span><i class="fab fa-twitter"></i></span>
+>>>>>>> 916e5a373f7ecaae3e8366630f074647899c6e7b
             </a>
                 
                 <a href="https://www.instagram.com/" class="icone instagram">
                     <span class="tooltip">Instagram</span>
+<<<<<<< HEAD
+                    
+=======
                     <span><i class="fab fa-instagram"></i></span>
+>>>>>>> 916e5a373f7ecaae3e8366630f074647899c6e7b
                 </a>
                 
             </ul>
@@ -39,10 +53,19 @@
             <div class="rdp">
 
                 <ul>
+<<<<<<< HEAD
+
+                   <div><a href="sobre.php"> <li class="btn-rodape">Sobre</li></a> </div>
+                   <div><a href="contato.php"> <li class="btn-rodape">Contato</li></a> </div>
+                   <div><a href="portfolio.php"> <li class="btn-rodape">Portfólio</li></a> </div>
+                   <div><a href="funcionarios.php"> <li class="btn-rodape">Funcionários</li></a> </div>
+                   
+=======
                     <li class="btn-rodape"><a href="/contato.php"></a>sobre</li>
                     <li class="btn-rodape"><a href="contato.php"></a>contato</li>
                     <li class="btn-rodape"><a href="portfolio.php"></a>portfólio</li>
                     <li class="btn-rodape"><a href="orcamento.php"></a>orçamento</li>
+>>>>>>> 916e5a373f7ecaae3e8366630f074647899c6e7b
                 </ul>
 
             </div>

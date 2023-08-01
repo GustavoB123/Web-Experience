@@ -7,10 +7,21 @@
   #mini-sobre {
     padding: 40px 0 100px;
     display: flex;
+<<<<<<< HEAD
+  }
+
+  #mini-sobre img{
+    display: none;
+  }
+
+ 
+
+=======
     margin-left: 300px;
 
   }
 
+>>>>>>> 916e5a373f7ecaae3e8366630f074647899c6e7b
   .sobre div div:nth-child(1) {
     display: flex;
     flex-direction: column;
@@ -55,6 +66,13 @@
     min-height: 850px;
   }
 
+<<<<<<< HEAD
+  .slideSobre {
+    background: url(../img/fndWeb.png) center;
+  }
+
+=======
+>>>>>>> 916e5a373f7ecaae3e8366630f074647899c6e7b
   .questoes {
     background: url(../img/sobreslide.png) no-repeat center;
     height: 870px;
@@ -68,8 +86,13 @@
   .questoes div {
     width: 1204px;
     height: 620px;
+<<<<<<< HEAD
+    /* background-color: #190B59; */
+    margin-top: 130px;
+=======
     background-color: #190B59;
     margin-top: 137px;
+>>>>>>> 916e5a373f7ecaae3e8366630f074647899c6e7b
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -90,7 +113,11 @@
     font-size: 40px;
     margin-top: 65px;
     color: #f2f2f2;
+<<<<<<< HEAD
+    font-weight: bold;
+=======
     font-weight: 500;
+>>>>>>> 916e5a373f7ecaae3e8366630f074647899c6e7b
   }
 
 
@@ -147,6 +174,11 @@
   .devs {
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
+    max-height: 280px;
+    padding: 3%;
+=======
+>>>>>>> 916e5a373f7ecaae3e8366630f074647899c6e7b
   }
 
   .devs div {
@@ -154,6 +186,10 @@
     flex-direction: column;
     margin: 10px;
     align-items: center;
+<<<<<<< HEAD
+    max-height: 280px;
+=======
+>>>>>>> 916e5a373f7ecaae3e8366630f074647899c6e7b
   }
 
 
@@ -164,6 +200,29 @@
     cursor: pointer;
   }
 
+<<<<<<< HEAD
+
+
+  .devs div div:hover img {
+    transition: ease-in-out .3s ;
+    opacity: .8;
+    filter: blur(4px);
+  }
+
+  .devs a {
+    font-size: 25px;
+    color: #ffff;
+    opacity: 0;
+    position: relative;
+    top: -268px;
+    text-shadow: 0px 6px 2px #041024;
+    text-decoration: none;
+    padding: 40% 35%;
+    text-align: center;
+  }
+
+  .devs div div:hover a {
+=======
   .devs h2 {
     font-size: 25px;
     color: #f2f2f2;
@@ -173,11 +232,57 @@
   }
 
   .devs div div:hover h2 {
+>>>>>>> 916e5a373f7ecaae3e8366630f074647899c6e7b
     opacity: 1;
     font-weight: bold;
   } 
 
+<<<<<<< HEAD
+  #edgar a{
+    line-height: 30px;
+    top: -290px;
+  }
+
+  /* -------------------------------------------------------------- MEDIA 0 - 480 --------------------------------------------------------------------------------------- */
+
+  @media (min-width: 1201px) and (max-width: 1680px) {
+    .sobre{
+      background: none;
+      background-color: #041024;
+    }
+
+
+    #mini-sobre img{
+      display: block;
+    }
+
+    #mini-sobre{
+      justify-content: space-around;
+    }
+
+    .equipe img{
+      width: 250px;
+    }
+
+    .questoes{
+      background: none;
+      background-color: #041024;
+      align-items: 0;
+      height: auto;
+
+    }
+
+    .questoes div{
+      margin-top: 0;
+      border-radius: 20px;
+    }
+
+    .sobre2{
+      min-height: auto;
+    }
+=======
   .devs div div:hover img {
     transition: ease-in-out .3s ;
     opacity: .8;
+>>>>>>> 916e5a373f7ecaae3e8366630f074647899c6e7b
   }

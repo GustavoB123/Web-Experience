@@ -4,6 +4,16 @@ document.querySelector(".menu-abrir").onclick = function(){
   document.documentElement.classList.add("menu-ativo");
   
   document.documentElement.classList.remove("menu-abrir");
+<<<<<<< HEAD
+}
+
+
+document.querySelector(".menu-fechar").onclick = function(){
+  document.documentElement.classList.remove("menu-ativo")
+}
+
+
+=======
 }
 
 
@@ -20,24 +30,39 @@ var typingeffect = new Typed(".digitando", {
   backDelay: 1500,
 });
   
+>>>>>>> 916e5a373f7ecaae3e8366630f074647899c6e7b
 
 window.onscroll = function(){
 
     var top = window. scrollY || document.documentElement.scrollTop;
 
 
-    console.log(top);
+    //console.log(top);
 
     if(top > 550){
+<<<<<<< HEAD
+    //console.log("adiciona meu menu fixo");
+    document.getElementById('topo-fixo').classList.add('menu-fixo');
+    }
+    else{
+      //console.log("remover meu menu fixo");
+=======
     console.log("adiciona meu menu fixo");
     document.getElementById('topo-fixo').classList.add('menu-fixo');
     }
     else{
       console.log("remover meu menu fixo");
+>>>>>>> 916e5a373f7ecaae3e8366630f074647899c6e7b
       document.getElementById('topo-fixo').classList.remove('menu-fixo');
     }
   }
 
+<<<<<<< HEAD
+  
+
+
+=======
+>>>>>>> 916e5a373f7ecaae3e8366630f074647899c6e7b
 
 
   $('.comentario').slick({
@@ -67,6 +92,8 @@ window.onscroll = function(){
 
 
 
+<<<<<<< HEAD
+=======
   
 
   // function formWhats(){
@@ -116,11 +143,16 @@ window.onscroll = function(){
     fone: 11 99999-9999
     mensagem: llllllll */
 
+>>>>>>> 916e5a373f7ecaae3e8366630f074647899c6e7b
     function formWhats(){
 
       var form = document.getElementById('modal-body');
 
+<<<<<<< HEAD
+      var mens = 'Proposta: ' + document.getElementById('mens').value;
+=======
       var mens = '*Mensagem: *' + document.getElementById('mens').value;
+>>>>>>> 916e5a373f7ecaae3e8366630f074647899c6e7b
 
       var numFone = '5511947396478'
 
@@ -128,6 +160,20 @@ window.onscroll = function(){
         alert ("O campo de mensagem é obrigatório");
         return;
       }else{
+<<<<<<< HEAD
+        mens = 'Proposta: ' + document.getElementById('mens').value;
+
+        window.open('https://api.whatsapp.com/send?phone=' +
+        numFone + '&text=' +
+        mens);
+      }
+    }
+ 
+
+    
+
+
+=======
         mens = '*Mensagem: *' + document.getElementById('mens').value;
 
         window.open('https://api.whatsapp.com/send?phone=' +
@@ -136,3 +182,4 @@ window.onscroll = function(){
       }
     }
  
+>>>>>>> 916e5a373f7ecaae3e8366630f074647899c6e7b
